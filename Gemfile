@@ -53,8 +53,10 @@ group :production do
 	gem 'pg'
 end
 
+ gem "capybara", '1.1.2', :group => "test"
+
 group :test do
-	gem 'capybara'
+#	gem 'capybara'
 end
 
 gem 'rails_12factor'
